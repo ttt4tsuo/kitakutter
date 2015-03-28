@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">kitakutter</string>
+    
+    <string name="title_section1">Get Timeline</string>
+    <string name="btn_get_timeline">Get Timeline</string>
+    
+    <string name="title_section2">Language</string>
+    <string name="btn_language">Language</string>
+    <string name="btn_language_question">Enable Japanese mode?</string>
+    
+    <string name="title_section3">Get GeoCode</string>
+    <string name="btn_get_geoCode">Get GeoCode</string>
+    <string name="edit_txt_msg_get_geoCode">Tokyo Station</string>
+    <string name="txt_msg_get_geoCode"></string>
+    
+    <string name="title_section4">Tweet</string>
+    <string name="btn_tweet">Tweet</string>
+    <string name="btn_generate_phrase">Generate Phrase</string>
+    
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_item1">I am feeling lucky</string>
+    
+    <string name="action_settings">Help</string>
+    <string name="dialog_btn_title">Exit</string>
+    <string name="dialog_text">
+        Location where you specified, \"kitakutter\" will Tweet. Twitter Bot client.\n\n
+
+		1.Overview\n
+		When you will go the location where you specified, "kitakutter" will Tweet. Twitter Bot client.\n\n
+
+		2.Operations\n
+		Enabling location and network.\n\n
+		Navigation Drawer\n
+		[2.1. Get GEOCOD]\n
+		You enter the location in Text box.\n\n
+		[2.2. Get Timeline]\n
+		You get Timeline of Twitter.\n\n
+		[2.3. Tweet]\n
+		Decomposed a Timeline into words, and \"kitakutter\" generate new phrase.(Generate phrase botton)
+		Set Tweet.(Tweet botton)\n\n
+		When you will go the GeoCode location where you specified, \"kitakutter\" tweet generated phrase.(Auto)
+    </string>
+
+</resources>

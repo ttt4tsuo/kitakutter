@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">kitakutter</string>
+    
+    <string name="title_section1">タイムライン</string>
+    <string name="btn_get_timeline">タイムラインを取得する</string>
+    
+    <string name="title_section2">言語</string>
+    <string name="btn_language">言語を決める</string>
+    <string name="btn_language_question">日本語でツイートしますか？</string>
+    
+    <string name="title_section3">ジオコード</string>
+    <string name="btn_get_geoCode">のジオコードを取得</string>
+    <string name="edit_txt_msg_get_geoCode">東京駅</string>
+    <string name="txt_msg_get_geoCode">GEOCODEを取得してください</string>
+    
+    <string name="title_section4">ツイート予約</string>
+    <string name="btn_tweet">ツイートを予約する</string>
+    <string name="btn_generate_phrase">フレーズを生成する</string>
+    
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_item1">I am feeling lucky</string>
+    
+    <string name="action_settings">はじめに</string>
+    <string name="dialog_btn_title">閉じる</string>
+    <string name="dialog_text">
+        このアプリは、位置情報に基づき、bot的に「つぶやく」Twitterクライアントです。\n
+		\n
+		■使うAndroidの機能\n
+		・位置情報\n
+		・ネットワークアクセス\n
+		\n
+		■使用方法\n
+		ナビゲーションドロワから各設定をおこないます。\n\n
+		①言語の設定\n日本語にするか選択します。\n\n
+		②ジオコードの取得\nテキスト窓に\"つぶやき\"たい場所を入力して、GeoCodeを取得します。\n駅名だとだいたい上手い具合に取得できます。\n\n
+		③Twitterのタイムラインを取得\n\n
+		④ツーイート予約\n単語に分解した\"つぶやき\"から文章を再生成して(\"フレーズを生成する\"ボタン)、
+		ツィートを予約します。(\"ツイートを予約する\"ボタン)\n\n
+		セットしたGeoCodeの半径1キロ以内に入ったら、生成した文章を自動でつぶやきます。
+		
+    </string>
+
+</resources>

@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:paddingTop="10dip">
+	<EditText android:text="@string/edit_txt_msg_get_geoCode"
+			android:id="@+id/edittext" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_weight="1">
+	</EditText>
+	<Button android:text="@string/btn_get_geoCode" 
+			android:id="@+id/geo_btn" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"	
+			android:layout_weight="1">
+	</Button>	
+	</LinearLayout>	
+
+	<TextView android:text="@string/txt_msg_get_geoCode"
+			android:id="@+id/TextView00" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+	</TextView>
+	<TextView android:text="" 
+			android:id="@+id/TextView01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+	</TextView>
+	<TextView android:text="" 
+			android:id="@+id/TextView02" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+	</TextView>
+
+</LinearLayout>
